@@ -1,0 +1,39 @@
+.body {
+	background-color: #f1f1f1;
+}
+.friended {
+	opacity: 0.25;
+}
+
+.friend-section {
+	/*border-bottom: 3px solid #1b1c52;*/
+}
+
+.friend-section a {
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+}
+
+.friend-section a:hover, .friend-section a:visited, .friend-section a:active, .friend-section a:link {
+	text-decoration: none;
+}
+
+.friend-section h2 {
+	border-bottom: 3px solid #1b1c52;
+	margin-top: 0;
+}
+
+.friend {
+	border-bottom: 1px solid 
+}
+
+.friend .actionButton {
+	background-color: #26aae2;
+	border-color: #26aae2; 
+}
+
+.friended.friend .actionButton {
+	background-color: #cccccc;
+	border-color: #cccccc; 
+}

@@ -1,0 +1,28 @@
+{
+  "name": "fof-friends-xbox",
+  "version": "1.0.0",
+  "description": "FoF Xbox Live Friends List",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-lazy-load": "^3.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apokalyptik/fof.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "PRODUCTION=1 webpack",
+    "dev": "webpack --watch"
+  },
+  "author": "Bear Cherian",
+  "license": "MIT"
+}
